@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "head.njk" %}
+</head>
+<body>
+    <main class="content">
+        <header class="hidden">
+            <div class="section-content">
+                <img src="./assets/images/mlx-logo.png" />
+
+                <div class="mobile-menu-icon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="https://ml-explore.github.io/mlx/build/html/index.html" target="_blank">
+                            Documentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ml-explore/mlx" target="_blank">
+                            GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        {{ content | safe }}
+    </main>
+    {% include "footer.njk" %}
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
