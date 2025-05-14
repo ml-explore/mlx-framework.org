@@ -10,6 +10,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("LICENSE");
 
     return {
+        pathPrefix: "/",
         dir: {
             input: "src",
             includes: "_includes",
