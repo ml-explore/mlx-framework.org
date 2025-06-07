@@ -20,7 +20,7 @@ title: MLX
             <img src="./assets/images/blocks.png" />
         </p>
         <div class="claim fade-in">
-            MLX can be run on any Apple platform and has official APIs in several languages:
+            MLX can be run on any Apple platform that supports Metal.
             <br />
             <ul class="fade-in">
                 <li>MLX Core has <a href="https://ml-explore.github.io/mlx/build/html/index.html">Python</a> and <a href="https://ml-explore.github.io/mlx/build/html/cpp/ops.html">C++</a> bindings</li>
